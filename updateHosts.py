@@ -20,7 +20,7 @@ wd = sg.Window("github加速 v0.01",font=("宋体",12),layout = layout)
 def updateHost1(hosturl=host_url):
     result = get(url=hosturl,headers=headers)
     if result.status_code == 200:
-        with open(hosts_path,mode="r+") as f:
+        with open(hosts_path,mode="r+",encoding="utf-8") as f:
             tmp = f.read()
             
             s1= result.text.split("\n")
