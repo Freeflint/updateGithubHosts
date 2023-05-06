@@ -1,4 +1,4 @@
 # updateGithubHosts
 update github hosts!
 
-打包就行！提供简单了的GUI
+打包就行！提供了简单的GUI
